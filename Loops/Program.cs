@@ -2,7 +2,7 @@
 
 static void ForLoop()
 {
-    for (int i = 0; i <= 0; i += 2)
+    for (int i = 0; i <= 100; i += 2)
     {
         Console.WriteLine(i);
     }
