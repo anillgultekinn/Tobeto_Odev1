@@ -22,10 +22,19 @@ static void WhileLoop()
 }
 //WhileLoop();
 
-
-int number = 10;
-do
+static void DoWhileLoop()
 {
-    Console.WriteLine(number);
-    number--;
-} while (number >= 11);
+    int number = 10;
+    do
+    {
+        Console.WriteLine(number);
+        number--;
+    } while (number >= 11);
+}
+//DoWhileLoop()
+
+string[] students = new string[] { "Engin", "Derin", "Salih" };
+foreach (var student in students)
+{
+    Console.WriteLine(student);
+}
