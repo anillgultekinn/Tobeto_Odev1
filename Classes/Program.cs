@@ -25,6 +25,8 @@
                 FirstName = "Derin",
                 LastName = "Demiroğ"
             };
+            Console.WriteLine(customer2.FirstName);
+
         }
     }
  
