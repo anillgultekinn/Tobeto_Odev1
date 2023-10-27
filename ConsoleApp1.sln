@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{27B5A8F8-6C0E-4906-8837-6FC8B909F3CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{C62242EB-C79C-42C7-89C3-7AE1ED1F2464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{C62242EB-C79C-42C7-89C3-7AE1ED1F2464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{FBC5800C-EA49-41AB-90D9-A71812F2F6DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{C62242EB-C79C-42C7-89C3-7AE1ED1F2464}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C62242EB-C79C-42C7-89C3-7AE1ED1F2464}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C62242EB-C79C-42C7-89C3-7AE1ED1F2464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC5800C-EA49-41AB-90D9-A71812F2F6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC5800C-EA49-41AB-90D9-A71812F2F6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC5800C-EA49-41AB-90D9-A71812F2F6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC5800C-EA49-41AB-90D9-A71812F2F6DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
