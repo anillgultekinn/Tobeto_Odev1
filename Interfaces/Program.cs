@@ -4,6 +4,14 @@
     {
         static void Main(string[] args)
         {
+            //InterfacesIntro();
+
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new SqlServerCustomerDal());
+        }
+
+        private static void InterfacesIntro()
+        {
             PersonManager manager = new PersonManager();
 
             Customer customer = new Customer
@@ -24,9 +32,8 @@
 
             manager.Add(student);
             manager.Add(customer);
-
-
         }
+
         interface IPerson
         {
             int Id { get; set; }
